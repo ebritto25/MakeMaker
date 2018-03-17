@@ -1,9 +1,8 @@
 #!/usr/bin/python3
 
 import argparse
-#import os
 
-parser = argparse.ArgumentParser(prog='spam',description='Create a MakeFile for a C++ program, with compile, test and clean options',formatter_class=argparse.ArgumentDefaultsHelpFormatter)
+parser = argparse.ArgumentParser(prog='MakeMaker',description='Create a MakeFile for a C++ program, with compile, test and clean options',formatter_class=argparse.ArgumentDefaultsHelpFormatter)
 
 
 parser.add_argument('source_file',nargs=1,help='Source file to be compiled')
