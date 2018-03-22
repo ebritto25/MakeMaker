@@ -13,7 +13,7 @@ args = vars(parser.parse_args())
 source = args['source_file'][0]
 output = args['output'][0]
 
-if(not source.endswith('.cpp') or not source.endswith('.c')):
+if(not source.endswith('.cpp')):
 	source += '.cpp'
 
 
